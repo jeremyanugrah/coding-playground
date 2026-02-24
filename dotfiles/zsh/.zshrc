@@ -63,3 +63,12 @@ int main() {
     echo "bin/" > .gitignore
     nvim main.cpp
 }
+
+# Enable advanced auto-completion
+autoload -Uz compinit && compinit
+
+# Make auto-completion case-insensitive
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
+# Alias for VS codium
+alias code='codium'
