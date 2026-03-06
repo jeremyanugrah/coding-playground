@@ -72,3 +72,7 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 # Alias for VS codium
 alias code='codium'
+
+# Alias for autocolor while using grep
+alias grep='grep --color=auto'
+export PATH=$HOME/bin:$PATH
