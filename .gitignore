@@ -29,3 +29,10 @@ build/
 **/app
 **/main
 **/build/
+
+# === Misc ===
+.cache/
+compile_commands.json
+bin/
+*.o
+build/
